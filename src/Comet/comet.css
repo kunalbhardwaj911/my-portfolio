@@ -1,0 +1,19 @@
+.fire-ball {
+    z-index: -1;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    box-shadow: 0 0 10px white, 0 0 20px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.5);
+    animation: glow 1s infinite alternate ease-in-out;
+}
+
+/* Glow Animation */
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px white, 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.4);
+    }
+    100% {
+        box-shadow: 0 0 10px white, 0 0 20px rgba(255, 255, 255, 0.9), 0 0 40px rgba(255, 255, 255, 0.6);
+    }
+}

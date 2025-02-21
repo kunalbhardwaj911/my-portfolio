@@ -1,0 +1,47 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #121212;
+    opacity: 0.9;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 50px;
+}
+
+.menu-item {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+    color: #ffa600;
+}
+
+/* Active state */
+.active {
+    font-size: 24px;
+    color: #ffa600;
+    font-weight: bold;
+}
+
+.logo{
+    position: relative;
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.logo img{
+    width: 100%;
+    height: auto;
+}

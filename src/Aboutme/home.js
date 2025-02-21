@@ -7,7 +7,7 @@ const Home = () => {
     <div className="about-container">
       <img src={mypic} alt="Vedant" className="about-image" />
       <div className="about-text">
-        <h2>Hey, I'm <span className="highlight">Rann Abhay</span> 👋</h2>
+        <h2>Hey, I'm <span className="highlight">Kunal</span> 👋</h2>
         <p>
           A passionate <span className="highlight">web developer</span> on a journey to master 
           frontend and backend technologies. I love bringing ideas to life through code, 

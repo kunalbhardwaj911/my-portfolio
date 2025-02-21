@@ -19,9 +19,6 @@ const Navbar = ({ setAcceleration }) => {
 
   return (
     <div className="navbar">
-      <div className="logo" onClick={() => navigate("/")}>
-        <img src={logo} alt="Logo" />
-      </div>
       <div className="navbar-menu">
         {[
           { name: "Projects", path: "/projects" },
